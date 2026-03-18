@@ -1,0 +1,9 @@
+a{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+.dashboard, .sidebar{
+    height: calc(100vh - 75px);
+    overflow: auto;
+}
