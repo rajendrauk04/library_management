@@ -33,7 +33,7 @@ function App() {
           </div>
           <div className="col-lg-10 dashboard">
             {/* Routes */}
-              <Navbar />
+            <Navbar />
             <Routes>
               <Route path="/course" element={<Course />} />
               <Route path="/dashboard" element={<Dashboard val={data} num={numbers} />} />
