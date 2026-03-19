@@ -4,6 +4,6 @@ a{
 }
 
 .dashboard, .sidebar{
-    height: calc(100vh - 75px);
+    height: calc(100vh - 10px);
     overflow: auto;
 }
